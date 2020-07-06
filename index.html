@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caffetopia</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/253bae7773.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+
+
+  <section id="navigation-bar">
+
+    <div class="container">
+      <!-- Header -->
+      <div class="header">
+        <a href="index.html">
+          <img src="images/coffee.png" alt="logo" class="logo" />
+        </a>
+        <h1><a href="index.html">COFFETOPIA</a></h1>
+      </div>
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a href="index.html">
+                <i class="fas fa-coffee  fa-2x"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">O nama</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Prodavnica</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="our-coffees.html">Naše kafe</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="locations-and-contacts.html">Lokacije i kontakti</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="sale.html">Akcije</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="loginAndRegister.html">
+                <i class="fas fa-user fa-2x"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="cart.html">
+                <i class="fas fa-shopping-cart fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- First carousel -->
+    <div id="first-carousel" class="carousel slide container" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/pocetna11.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/pocetna12.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/pocetna13.jpg" alt="Third slide">
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/pocetna14.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#first-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#first-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <button type="button" class="btn btn-secondary btn-lg prodavnica-btn">  <a class="btn-link" href="shop.html">
+        POGLEDAJTE NAŠE PROIZVODE</a></button>
+    </div>
+
+
+  <!-- Products -->
+    <div class="coffies">
+      <section id="coffies">
+        <h1 class="title">IZDVAJAMO</h1>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="coffee-box" id="proizvod1">
+              <img src="images/zeka2.png" alt="kafa1" class="kafa">
+              <h3>ZEKA</h3>
+              <h4>450rsd</h3>
+                <button type="button" class="btn btn-secondary btn-lg" id="btn1">Dodaj u korpu</button>
+                <i class="fas fa-check" id="added1"></i>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="coffee-box"  id="proizvod2">
+              <img src="images/nicaragua2.png" alt="kafa2" class="kafa">
+              <h3>NICARAGUA</h3>
+              <h4>950rsd</h4>
+              <button type="button" class="btn btn-secondary btn-lg" id="btn2">Dodaj u korpu</button>
+              <i class="fas fa-check" id="added2"></i>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="coffee-box"  id="proizvod3">
+              <img src="images/lija2.png" alt="kafa3" class="kafa">
+              <h3>LIJA</h3>
+              <h4>450rsd</h4>
+              <button type="button" class="btn btn-secondary btn-lg" id="btn3">Dodaj u korpu</button>
+              <i class="fas fa-check" id="added3"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+
+    <!-- Second carousel -->
+    <div id="second-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/pocetna25.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/pocetna22.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/pocetna23.jpg" alt="Third slide">
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/pocetna24.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#second-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#second-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <button type="button" class="btn btn-secondary btn-lg nase-kafe-btn btn-link">
+        <a class="btn-link" href="our-coffees.html">
+        SAZNAJTE VISE O NAŠIM KAFAMA</a></button>
+    </div>
+
+
+    <!-- Subscribe box -->
+    <section class="subscribe-box">
+      <h5>Prijavite se na naš newsletter</h5>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control sb" placeholder="Email adresa" aria-label="Email adresa" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary btn-sm sb" type="button">Subscribe</button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <hr>
+        <div class="icons">
+          <div class="row">
+            <div class="icon col-lg-4 col-sm-4">
+              <i class="fab fa-facebook fa-3x"></i>
+            </div>
+
+            <div class="icon col-lg-4 col-sm-4">
+              <i class="fab fa-instagram fa-3x"></i>
+            </div>
+
+            <div class="icon col-lg-4 col-sm-4">
+              <i class="fab fa-twitter fa-3x"></i>
+            </div>
+
+          </div>
+        </div>
+
+        <h5>COPYRIGHT © COFFETOPIA</h5>
+      </div>
+    </footer>
+
+    <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

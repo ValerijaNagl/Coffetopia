@@ -1,0 +1,106 @@
+@media only screen and (max-width: 1000px){
+
+  .navbar{
+    margin-top: 5%;
+  }
+
+  .col-lg-4{
+    margin: 5% auto;
+  }
+
+  .title{
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  .btn{
+    font-size: 1rem;
+  }
+
+  h3{
+    font-size: 1.5rem;
+  }
+
+  h4{
+    font-size: 1.5rem;
+  }
+
+  h5{
+    font-size:1.2rem;
+  }
+
+  .profil-slika{
+    margin: 2% 5% 10%;
+  }
+
+  .subscribe-box{
+    text-align: center;
+    width: 60%;
+    margin: 1% auto 2%;
+    padding: 2%;
+    border-radius: 5%;
+    background-color: rgba(224, 224, 224, 1);
+  }
+
+/* menja se font u subscribe boxu */
+  .sb{
+    font-size: 0.6rem;
+  }
+
+}
+
+.profil-div{
+  background-color: #e4cbb4;
+  margin: 5% auto 7%;
+  padding: 2% 5% 4%;
+}
+
+.profil-slika-div{
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 5%;
+}
+
+.fa-plus{
+  position: absolute;
+  margin: 8% 0 0 8%;
+}
+
+.fa-user-circle{
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.pr{
+  font-size: 0.7rem;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0;
+}
+
+.navbar-profile{
+  margin-bottom: 10%;
+}
+
+
+.btn{
+  display: inline-block;
+}
+
+.message1{
+  display: inline;
+  margin-left: 5%;
+}
+
+.message2{
+  display: inline;
+  margin-left: 5%;
+}
+
+.reset-link{
+  padding-top: 5%;
+}
+
+
+.modal{
+  display: none;
+}

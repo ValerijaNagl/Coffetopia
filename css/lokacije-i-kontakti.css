@@ -1,0 +1,71 @@
+@media screen and (max-width: 1000px){
+
+  .subscribe-box{
+    text-align: center;
+    width: 60%;
+    margin: 1% auto 2%;
+    padding: 2%;
+    border-radius: 5%;
+    background-color: rgba(224, 224, 224, 1);
+  }
+
+  .sb{
+    font-size: 0.6rem;
+  }
+
+  h5{
+      font-size: 0.8rem;
+  }
+
+  p{
+      font-size: 0.8rem;
+  }
+}
+
+
+p{
+  text-align: left;
+}
+
+
+.col-lg-12{
+  padding: 3%;
+}
+
+hr{
+  background-color: gray;
+  color:gray;
+}
+
+
+.red{
+  width: 90%;
+  margin: 0 auto auto auto;
+  background-color: rgba(229, 204, 255, 0.2);
+  text-align: center;
+  padding: 3%;
+}
+
+
+.lokacija-slika{
+  padding: 2%;
+  width: 100%;
+}
+
+
+.info{
+  padding-top: 5%;
+  display: inline-block;
+  padding-left: 5%;
+}
+
+
+.icon{
+  float: left;
+  margin-top: 1%;
+  margin-right: 5%;
+}
+
+.weekend{
+  padding-left: 10%;
+}

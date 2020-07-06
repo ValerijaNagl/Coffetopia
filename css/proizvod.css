@@ -1,0 +1,145 @@
+/* Pozadina za proizvod */
+.product-div{
+  margin: 5% 0;
+  background-image: url("pozadine/pozadina.jpg");
+  min-height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+/* Proizvod */
+.red{
+  width: 90%;
+  position: absolute;
+  margin: 6% auto 5% 5%;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 3% 0;
+}
+
+.text{
+  text-align: left;
+}
+
+.red-text{
+  text-decoration: line-through;
+  display: inline-block;
+  color:red;
+}
+
+.sale-price{
+  margin-left: 3%;
+  display: inline-block;
+}
+
+
+.col-lg-6{
+  background-color: #fffff;
+  padding: 0 2%;
+}
+
+.karakteristike-kafe-slika{
+  width: 100%;
+}
+
+#slika{
+  padding-top: 4%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.dugme{
+  margin: 10% 2% 0;
+}
+
+
+
+/* Kafe slicne arome */
+#coffies{
+  margin: 15% 2% 15%;
+}
+
+
+
+@media screen and (max-width: 1200px){
+
+  .title{
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  #coffies{
+    margin-top: 80%;
+  }
+
+  .btn{
+    font-size: 1rem;
+  }
+
+  h3{
+    font-size: 1.5rem;
+  }
+
+  h4{
+    font-size: 1.5rem;
+  }
+
+  h5{
+    font-size:0.9rem;
+  }
+
+  .info{
+    font-size: 1.1rem;
+  }
+
+  .subscribe-box{
+    text-align: center;
+    width: 60%;
+    margin: 1% auto 2%;
+    padding: 2%;
+    border-radius: 5%;
+    background-color: rgba(224, 224, 224, 1);
+  }
+
+  .sb{
+    font-size: 0.6rem;
+  }
+
+}
+
+/* Slika*/
+.slika-pregled-proizvoda{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-image: url("pozadine/pregled-proizvoda.jpg");
+  min-height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+/* Div saznaj vise o lokacijama */
+
+.lokacije{
+  width: 90%;
+  position: absolute;
+  margin: 6% auto 5% 15%;
+  text-align: center;
+  padding: 3% 0;
+}
+
+.info-o-lokacijama{
+  padding: 10% 5%;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 80%;
+}
+
+.info{
+  padding: 10%;
+  line-height: 1.5;
+}

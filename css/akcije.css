@@ -1,0 +1,97 @@
+.coffee-box{
+  text-align: center;
+  padding: 3%;
+  background-color: #DDBEA1;
+  margin: 15% 3%;
+  padding-bottom: 10%;
+  position: relative;
+}
+
+#navigation-bar{
+  margin-top: 3%;
+}
+
+
+.option{
+  padding: 0 10px;
+  font-size: 0.8rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.slika-akcija{
+  width: 100%;
+  height: 650px;
+  padding: 5% 30% 5% 10%;
+}
+
+.line-through {
+  text-decoration: line-through;
+  display: inline-block;
+}
+
+.red-text{
+  display: inline-block;
+  color:red;
+  margin-left: 2%;
+}
+
+.fa-check{
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 1000px){
+
+  .coffee-box{
+    margin: 0 10%;
+  }
+
+  .navbar{
+    margin-top: 5%;
+  }
+
+  .col-lg-4{
+    margin: 5% auto;
+  }
+
+  .title{
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  .btn{
+    font-size: 1rem;
+  }
+
+  h3{
+    font-size: 1.5rem;
+  }
+
+  h4{
+    font-size: 1.5rem;
+  }
+
+  h5{
+    font-size:0.9rem;
+  }
+
+  .subscribe-box{
+    text-align: center;
+    width: 60%;
+    margin: 1% auto 2%;
+    padding: 2%;
+    border-radius: 5%;
+    background-color: rgba(224, 224, 224, 1);
+  }
+
+/* menja se font u subscribe boxu */
+  .sb{
+    font-size: 0.6rem;
+  }
+
+  .slika-akcija{
+    width: 100%;
+    height: 300px;
+    margin: 0;
+  }
+
+}

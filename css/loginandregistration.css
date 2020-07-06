@@ -1,0 +1,95 @@
+/* Resizing products */
+@media only screen and (max-width: 1000px){
+
+  .col-lg-4{
+    margin: 5% 15%;
+  }
+
+  h3{
+    font-size: 1.5rem;
+  }
+
+  h4{
+    font-size:1.5rem;
+  }
+
+
+  .btn{
+    font-size: 0.8rem;
+  }
+
+  .navbar{
+    margin-top: 5%;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 400px){
+
+  h1 {
+    display: none;
+  }
+
+  .logo{
+     min-width: 120px;
+     min-height:70px;
+     padding-left: 10%;
+  }
+
+  .navbar{
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .btn{
+    font-size: 0.9rem;
+  }
+}
+
+
+.box{
+  background-color: #e4cbb4;
+  text-align: center;
+  margin: 10% 3%;
+  padding: 5%;
+  margin-bottom: 15%;
+}
+
+h2{
+  margin-top: 2%;
+}
+
+.first{
+  padding-bottom: 7%;
+}
+
+.resetuj-link{
+  display: block;
+  margin-bottom: 2%;
+}
+
+
+.error-email-login{
+  text-align: left;
+  color:red;
+  visibility: hidden;
+}
+
+.error-password-login{
+  text-align: left;
+  color:red;
+  visibility: hidden;
+}
+
+.error-email-register{
+  text-align: left;
+  color:red;
+  visibility: hidden;
+}
+
+.error-password-register{
+  text-align: left;
+  color:red;
+  visibility: hidden;
+}

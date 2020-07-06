@@ -1,0 +1,101 @@
+h3{
+  text-align: center;
+}
+
+
+h5{
+  display: inline-block;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+
+.korpa{
+  margin: 7% 7%;
+  background-color: #e4cbb4;
+  padding: 5% 10%;
+  position: relative;
+}
+
+.korpa:hover{
+  background-color: #e4cbb4;
+}
+
+
+.item{
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2% 2%;
+  margin: 2% auto;
+}
+
+.slika{
+  float: left;
+  margin-bottom: 2%;
+  width: 7%;
+}
+
+.fa-trash-alt{
+    position: absolute;
+    right: 14%;
+}
+
+.hr-line{
+  margin-top: 5%;
+  margin-right: 75%;
+}
+
+h4{
+  margin-left: 1%;
+}
+
+.btn{
+  margin: 5% 20% 0 35%;
+}
+
+.checkout-link{
+  color: white;
+}
+
+.checkout-link:hover{
+  color: white;
+}
+
+@media screen and (max-width: 455px){
+
+  .korpa{
+    margin: 25% 7%;
+    background-color: #DDBEA1;
+    padding: 5% 10%;
+    position: relative;
+  }
+
+.btn{
+  font-size: 0.8rem;
+  margin: 10% 0 2% 11%;
+}
+
+
+h5{
+  font-size: 1rem;
+}
+
+h4{
+  font-size: 1.3rem;
+}
+
+.slika{
+  float: left;
+  margin-bottom: 2%;
+  width: 15%;
+}
+
+.fa-trash-alt{
+    position: absolute;
+    right: 14%;
+}
+
+
+.hr-line{
+  margin-right: 50%;
+}
+}

@@ -1,0 +1,68 @@
+@media only screen and (max-width: 1000px){
+
+  .table{
+    font-size: 0.9rem;
+  }
+
+  .navbar{
+    margin-top: 5%;
+  }
+
+  .col-lg-4{
+    margin: 5% auto;
+  }
+
+  .btn{
+    font-size: 1rem;
+  }
+
+  h3{
+    font-size: 1.5rem;
+  }
+
+  h4{
+    font-size: 1.5rem;
+  }
+
+  h5{
+    font-size:1.2rem;
+  }
+
+  .subscribe-box{
+    text-align: center;
+    width: 60%;
+    margin: 1% auto 2%;
+    padding: 2%;
+    border-radius: 5%;
+    background-color: rgba(224, 224, 224, 1);
+  }
+
+/* menja se font u subscribe boxu */
+  .sb{
+    font-size: 0.6rem;
+  }
+
+}
+
+.online-placanja-div{
+  background-color: #e4cbb4;
+  margin: 5% auto 10%;
+  padding: 2% 5% 4%;
+}
+
+
+.text{
+  margin: 3% 0;
+}
+
+.table-div{
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 2% auto;
+  font-size: 1.2rem;
+}
+
+.pr{
+  font-size: 0.7rem;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0;
+}

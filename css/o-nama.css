@@ -1,0 +1,220 @@
+.o-nama-sekcija{
+    margin: 5% auto;
+    background-image: url("pozadine/pozadina2.jpg");
+    min-height: 1120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.about-us1{
+  width: 75%;
+  position: absolute;
+  margin: 7% auto 5% 10%;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 3% 5%;
+}
+
+.tekst1{
+  height: 320px;
+  font-size: 1.4rem;
+  line-height: 2;
+}
+
+.tekst2{
+  height: 360px;
+  font-size: 1.4rem;
+  line-height: 2;
+}
+
+.about-us2{
+  width: 75%;
+  position: absolute;
+  margin: 50% auto 5% 10%;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 3% 5%;
+}
+
+.carousel{
+  margin: 10% auto 5%;
+}
+
+
+/* Resizing products */
+@media only screen and (max-width: 1200px){
+
+  .tekst1{
+    height: 300px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 20%;
+  }
+
+  .tekst2{
+    height: 440px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .about-us1{
+    width: 75%;
+    position: absolute;
+    margin: 7% auto 5% 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 3% 5%;
+    margin-bottom: 20%;
+  }
+
+  .about-us2{
+    width: 75%;
+    position: absolute;
+    margin: 80% auto 100% 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 3% 5%;
+  }
+
+
+  .btn{
+    font-size: 0.8rem;
+  }
+
+  .navbar{
+    margin-top: 5%;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 780px){
+
+  h1 {
+    display: none;
+  }
+
+  .logo{
+     min-width: 160px;
+     min-height:90px;
+     padding-left: 10%;
+  }
+
+  .navbar{
+    margin-top: 5%;
+  }
+
+  .tekst1{
+    height: 220px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 90%;
+  }
+
+  .tekst2{
+    height: 440px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .about-us1{
+    width: 75%;
+    position: absolute;
+    margin: 7% auto 40% 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 3% 5%;
+    margin-bottom: 20%;
+  }
+
+  .about-us2{
+    width: 75%;
+    position: absolute;
+    margin: 120% auto 100% 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 3% 5%;
+  }
+
+  .carousel{
+    margin: 40% auto 5%;
+  }
+
+
+}
+
+
+
+@media only screen and (max-width: 523px){
+
+  h1 {
+    display: none;
+  }
+
+  .logo{
+     min-width: 120px;
+     min-height:70px;
+     padding-left: 10%;
+  }
+
+  .navbar{
+    margin-top: 5%;
+  }
+
+  .tekst1{
+    height: 380px;
+    font-size: 1.3rem;
+    line-height: 1.3;
+    margin-bottom: 90%;
+  }
+
+  .tekst2{
+    height: 440px;
+    font-size: 1.3rem;
+    line-height: 1.3;
+  }
+
+  .about-us1{
+    width: 75%;
+    position: absolute;
+    margin: 7% auto 40% 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 3% 5%;
+    margin-bottom: 20%;
+  }
+
+  .about-us2{
+    width: 75%;
+    position: absolute;
+    margin: 190% auto 100% 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 3% 5%;
+  }
+
+  .carousel{
+    margin:70% auto 8%;
+  }
+
+  .subscribe-box{
+    text-align: center;
+    width: 60%;
+    margin: 1% auto 2%;
+    padding: 2%;
+    border-radius: 5%;
+    background-color: rgba(224, 224, 224, 1);
+  }
+
+  .sb{
+    font-size: 0.6rem;
+  }
+
+  h5{
+      font-size: 0.8rem;
+  }
+
+
+}

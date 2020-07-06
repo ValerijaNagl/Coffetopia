@@ -1,0 +1,286 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: white;
+}
+
+hr{
+  color: black;
+  background-color: black;
+}
+
+
+h1{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-size: 3em;
+  line-height: 1.5;
+  color: black;
+  display: inline;
+}
+
+.title{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.btn-link:hover{
+  color: white;
+  text-decoration: none;
+}
+
+
+/* Header */
+.logo{
+  width: 10%;
+  margin-left: 30%;
+  display: inline-block;
+}
+
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+
+/* Navigation bar */
+#navigation-bar{
+  margin-top: 3%;
+}
+
+.navbar{
+  padding-left: 0;
+  margin-top: 2%;
+}
+
+.nav-item{
+  padding: 5px 10px;
+}
+
+.nav-link{
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+
+/* First carousel */
+
+
+#first-carousel{
+  margin: 5% auto;
+  width: 70%;
+}
+
+.prodavnica-btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.btn-link{
+  color: white;
+}
+
+
+/* Caffee part */
+
+#coffies{
+  margin: 10% 14%;
+  text-align: center;
+}
+
+.row{
+  margin-top: 2%;
+}
+
+.coffee-box{
+  text-align: center;
+  background-color: #DDBEA1;
+  margin: 10% 1%;
+  padding-bottom: 10%;
+  position: relative;
+}
+
+.kafa{
+  margin: auto;
+  width: 80%;
+}
+
+.coffee-box:hover{
+  background-color: #e4cbb4;
+}
+
+
+/* Second carousel */
+#second-carousel{
+  width: 70%;
+  margin: 5% auto 10%;
+  position: relative;
+}
+
+.nase-kafe-btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+/* Footer */
+
+.footer{
+  text-align: center;
+}
+
+.subscribe-box{
+  text-align: center;
+  width: 30%;
+  margin: 1% auto 2%;
+  padding: 2%;
+  border-radius: 5%;
+  background-color: rgba(224, 224, 224, 1);
+}
+
+.icons{
+   width: 20%;
+   margin: 30px auto;
+}
+
+.fa-check{
+  position: absolute;
+  right: 11%;
+  margin-top: 5%;
+  color: green;
+  visibility: hidden;
+}
+
+/* Resizing products */
+@media only screen and (max-width: 1000px){
+
+  .coffee-box{
+    margin: 0 10%;
+  }
+
+  .col-lg-4{
+    margin: 5% auto;
+  }
+
+  h3{
+    font-size: 1.5rem;
+  }
+
+
+  h5{
+    font-size:0.9rem;
+  }
+
+  h4{
+    font-size:1.5rem;
+  }
+
+
+  .btn{
+    font-size: 0.8rem;
+  }
+
+  .navbar{
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .subscribe-box{
+    text-align: center;
+    width: 60%;
+    margin: 1% auto 2%;
+    padding: 2%;
+    border-radius: 5%;
+    background-color: rgba(224, 224, 224, 1);
+  }
+
+/* menja se font u subscribe boxu */
+  .sb{
+    font-size: 0.6rem;
+  }
+
+}
+
+/* Resizing the logo */
+@media only screen and (max-width: 780px){
+
+  h1 {
+    display: none;
+  }
+
+  .logo{
+     min-width: 160px;
+     min-height:90px;
+     padding-left: 10%;
+  }
+
+  .navbar{
+    margin-top: 5%;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 400px){
+
+  h1 {
+    display: none;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+
+  h4{
+    font-size: 1.5rem;
+  }
+
+  h5{
+    font-size:0.9rem;
+  }
+
+  .logo{
+     min-width: 120px;
+     min-height:70px;
+     padding-left: 10%;
+  }
+
+  .navbar{
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .btn{
+    font-size: 1rem;
+  }
+
+  .nase-kafe-btn{
+    font-size: 0.65rem;
+  }
+
+  .prodavnica-btn{
+      font-size: 0.65rem;
+  }
+
+}
