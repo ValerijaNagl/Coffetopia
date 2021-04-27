@@ -1,3 +1,3 @@
 # Coffetopia
-Website for imaginary coffeshop that sells coffee online. 
+Website for imaginary coffeshop. 
 Tehnologies used: HTML, CSS, JavaScript and Bootstrap
